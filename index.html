@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RAG AI Chat</title>
+</head>
+<body>
+    <h1>Ask a Question</h1>
+    <input type="text" id="question" placeholder="Type your question">
+    <button onclick="askQuestion()">Ask</button>
+    <pre id="response"></pre>
+
+    <script>
+        async function askQuestion() {
+            let question = document.getElementById("question").value;
+            let response = await fetch("/ask", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ question })
+            });
+            let data = await response.json();
+            document.getElementById("response").textContent = data.answer || data.error;
+        }
+    </script>
+</body>
+</html>

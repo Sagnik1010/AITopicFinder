@@ -1,0 +1,22 @@
+[
+    {
+        "start": 0.0,
+        "end": 2.0,
+        "text": " Hi everyone and welcome to Abhinav College"
+    },
+    {
+        "start": 2.0,
+        "end": 5.0,
+        "text": " and in this video we are going to start with our Java course"
+    },
+    {
+        "start": 5.0,
+        "end": 7.0,
+        "text": " We have divided this course into two parts"
+    },
+    {
+        "start": 7.0,
+        "end": 10.0,
+        "text": " in which the first part is introduction to programming"
+    }
+]

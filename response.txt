@@ -1,0 +1,7 @@
+I'd be happy to help you with your question about CSS in our Sigma web development course.
+
+So, the user asked from where we started CSS in this course. In video 14, we started discussing CSS at around 0 seconds and covered it until approximately 3 minutes and 28 seconds into the video.
+
+If you want to learn more about how we style HTML elements using CSS or see examples of heading, paragraphs, and links with styles, I recommend checking out video 4. You can find this video by searching for "Heading, Paragraphs and Links" in our course library. Just look for video 4, and it should start playing from around the same timestamp where we started discussing CSS in video 14.
+
+Let me know if you have any more questions or need further clarification!
